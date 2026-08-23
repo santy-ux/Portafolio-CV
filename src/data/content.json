@@ -1,0 +1,111 @@
+{
+  "portfolio": {
+    "owner": {
+      "name": "Santiago Orozco",
+      "role": "Desarrollador de Software en Formación",
+      "shortDescription": "Estudiante y entusiasta de la programación apasionado por el desarrollo de software y la tecnología."
+    },
+    "navigation": [
+      {
+        "label": "Inicio",
+        "target": "#home"
+      },
+      {
+        "label": "Sobre mí",
+        "target": "#about"
+      },
+      {
+        "label": "Proyectos",
+        "target": "#projects"
+      },
+      {
+        "label": "Contacto",
+        "target": "#contact"
+      }
+    ],
+    "hero": {
+      "greeting": "Hola, soy",
+      "name": "Santiago",
+      "subtitle": "Desarrollador de Software en Formación.",
+      "cta": {
+        "text": "Ver mi trabajo",
+        "target": "#projects"
+      }
+    },
+    "about": {
+      "title": "Sobre mí",
+      "description": "Soy Santiago Orozco, estudiante en formación y apasionado por la programación y la tecnología. Me interesa el desarrollo web y la creación de proyectos que me permitan aprender, mejorar mis habilidades y convertir ideas en soluciones reales."
+    },
+    "skills": {
+      "title": "Skills",
+      "technologies": [
+        "HTML5",
+        "JavaScript",
+        "Sass",
+        "Python",
+        "Java",
+        "SQL",
+        "Node.js",
+        "Figma",
+        "Angular",
+        "React",
+        "Git"
+      ]
+    },
+    "projects": {
+      "title": "Proyectos",
+      "description": "Una selección de proyectos que representan mi aprendizaje y evolución en programación y desarrollo digital.",
+      "items": [
+        {
+          "id": 1,
+          "title": "Deportes Montessori",
+          "category": "Proyecto estudiantil",
+          "description": "Aplicación web académica para gestionar información deportiva institucional, incluyendo posiciones, resultados y contenido relacionado con actividades escolares.",
+          "image": "/image/captura2.png",
+          "liveUrl": "https://proyecto-montessori.gt.tc/index.php",
+          "githubUrl": "https://github.com/santy-ux/pagina-colegio-",
+          "themeColor": "violet"
+        },
+        {
+          "id": 2,
+          "title": "Honda CBR1000RR Animation",
+          "category": "Proyecto hobby",
+          "description": "Proyecto personal desarrollado para aprender y experimentar con animaciones 3D en aplicaciones web modernas. Utiliza GSAP para crear transiciones, movimientos y efectos visuales interactivos inspirados en páginas de presentación de productos.",
+          "image": "/image/captura1.png",
+          "liveUrl": "https://gsap-cbr1000.vercel.app/",
+          "githubUrl": "https://github.com/santy-ux/gsap-cbr1000",
+          "themeColor": "red"
+        }
+      ]
+    },
+    "contact": {
+      "title": "Contacto",
+      "description": "¿Tienes una pregunta o quieres ponerte en contacto conmigo? Déjame tus datos y te responderé lo antes posible.",
+      "fields": [
+        {
+          "name": "name",
+          "label": "Nombre",
+          "type": "text",
+          "required": true
+        },
+        {
+          "name": "email",
+          "label": "Correo",
+          "type": "email",
+          "required": true
+        },
+        {
+          "name": "message",
+          "label": "Mensaje",
+          "type": "textarea",
+          "required": true
+        }
+      ],
+      "button": "Enviar"
+    },
+    "footer": {
+      "name": "Santiago Orozco",
+      "copyrightYear": 2026
+    }
+  }
+}
