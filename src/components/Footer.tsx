@@ -1,5 +1,5 @@
 import React from 'react';
-import { ChevronUp, Github, Instagram } from 'lucide-react';
+import { ChevronUp, Github, Instagram, FileText} from 'lucide-react';
 
 export const Footer: React.FC = () => {
   const scrollToTop = () => {
@@ -41,6 +41,17 @@ export const Footer: React.FC = () => {
             aria-label="Perfil de Instagram"
           >
             <Instagram size={22} />
+          </a>
+
+          <a
+            id="footer-cv-link"
+            href="/Hojadevida.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="p-2.5 rounded-xl bg-white/[0.03] border border-white/10 text-white/70 hover:text-white hover:border-[#ff4d5a]/50 hover:bg-[#ff4d5a]/10 transition-all duration-300 transform hover:scale-105"
+            aria-label="Ver mi CV"
+          >
+            <FileText size={22} />
           </a>
         </div>
       </div>
